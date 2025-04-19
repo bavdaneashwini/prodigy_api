@@ -16,3 +16,6 @@ post: http://localhost:3000/api/v1/user_activities
   "activity_id": 7,
   "day_number": 14
 }
+
+
+Currently i have create dummy user using seed and also for other part. We can implement user part using devise.
