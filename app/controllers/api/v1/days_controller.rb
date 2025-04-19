@@ -27,10 +27,8 @@ module Api
         
           day_number = params[:day_number].to_i
         
-          # Fetch completed user activities
           completed_user_activities = UserActivity.where(user_id: user.id, day_number: day_number, completed: true)
         
-          # If no activities are found, return an empty array for completed_activities
           render json: {
             day: day_number,
             user_id: user.id,
