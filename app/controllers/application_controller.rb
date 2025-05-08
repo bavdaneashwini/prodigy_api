@@ -8,4 +8,5 @@ class ApplicationController < ActionController::Base
   def force_json_request
     request.format = :json
   end
+  
 end
